@@ -7,7 +7,6 @@ Nouns for Classes
 Players methods 
   - will instantiate a player
   - will store the players lives
-  - will store the number of questions the player has answered correctly
   - can reduce the number of lives
 
 Questions methods 
@@ -16,7 +15,12 @@ Questions methods
   - will store the answer
   - can compare the answer to a users guess and return true or false
 
-Games 
-  - will instantiate a new game
+Math_Games 
+  - will instantiate a new game and players
   - will control the player rotation
-  - will output resonses for correctly/incorrectly answered questions and winner of the game
+  - will output resonses for Player scores nad outcome of game
+
+Turns 
+  - will instantiate a new turn which will take a new question and the current user. 
+  - will handle user I/O
+  - will output response for a question answered correctly or incorrectly
