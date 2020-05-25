@@ -8,13 +8,17 @@ class Turns
   end
 
   def run
+    # Display question to current player
     puts "#{@current_player.name}: " + @question.generate_question
-    player_input = gets.chomp
+    # Take player input 
+    player_input = gets.chomp 
+    # Compare player input to the answer for the question
     if @question.compare_answer(player_input.to_i)
       puts "That is correct!"
     else 
       puts "Sorry, that is incorrect!"
-      @current_player.reduce_lives
+      #reduce the current players lives if they answer incorrectly
+      @current_player.reduce_lives 
     end
   end
 end

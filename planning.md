@@ -2,7 +2,8 @@ Nouns for Classes
 
 - Questions => generates an addition equation of two random digits between 1 - 20, and stores the answer.
 - Players => keeps the score of the number of questions answered as well as their 'lives remaining' 
-- Games => controls the game flow. Rotates the players per question and displays a message when the question is answered correctly or incorrectly
+- Math_Games => controls the game flow. Rotates the players per question and displays a message when the question is answered correctly or incorrectly
+- Turns => will generate a new question for the current player. Will control be responsible for retreiving play input
 
 Players methods 
   - will instantiate a player
